@@ -1,0 +1,57 @@
+﻿<!--
+GROUP : 6
+GROUP MEMBERS: William Wiltshire, Kirsti Tench, Zahidali Maknojia, Krishna Bhandari, Aleksander Mukhin
+ASSIGNMENT# 7
+Description: A Tic Tac Toe Game simulator
+-->
+    <Window x:Class="TTTGameSimulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tic Tac Toe Game Simulator (AI version)" Name="AppWindow" Height="525" Width="525">
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Label Name="TL" Content="{Binding Path=TL}" Grid.Row="0" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="26" BorderBrush="Black" BorderThickness="2" Padding="70, 50"></Label>
+        <Label Name="TM" Content="{Binding Path=TM}" Grid.Row="0" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="26" BorderBrush="Black" BorderThickness="2" Padding="70, 50"></Label>
+        <Label Name="TR" Content="{Binding Path=TR}" Grid.Row="0" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="26" BorderBrush="Black" BorderThickness="2" Padding="70, 50"></Label>
+        <Label Name="ML" Content="{Binding Path=ML}" Grid.Row="1" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="26" BorderBrush="Black" BorderThickness="2" Padding="70, 50"></Label>
+        <Label Name="MM" Content="{Binding Path=MM}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="26" BorderBrush="Black" BorderThickness="2" Padding="70, 50"></Label>
+        <Label Name="MR" Content="{Binding Path=MR}" Grid.Row="1" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="26" BorderBrush="Black" BorderThickness="2" Padding="70, 50"></Label>
+        <Label Name="BL" Content="{Binding Path=BL}" Grid.Row="2" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="26" BorderBrush="Black" BorderThickness="2" Padding="70, 50"></Label>
+        <Label Name="BM" Content="{Binding Path=BM}" Grid.Row="2" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="26" BorderBrush="Black" BorderThickness="2" Padding="70, 50"></Label>
+        <Label Name="BR" Content="{Binding Path=BR}" Grid.Row="2" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="26" BorderBrush="Black" BorderThickness="2" Padding="70, 50"></Label>
+
+        <Button Name="Simulate" Content="Simulate new game" Grid.Column="1" Grid.Row="3" Width="150" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Simulate_Click"></Button>
+        <Button Name="ResetScore" Content="Reset score" Grid.Column="2" Grid.Row="3" Width="150" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Click="ResetScore_Click"></Button>
+        
+        <Grid Name="InnerGrid" Grid.Column="0" Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Label Name="XNum" Grid.Column="0" Grid.Row="0" Content="X wins:" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label Name="TNum" Grid.Column="1" Grid.Row="0" Content="Ties:" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label Name="ONum" Grid.Column="2" Grid.Row="0" Content="O wins:" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+
+            <Label Name="XWinRate" Grid.Column="0" Grid.Row="1" Content="{Binding Path=XWin}" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label Name="TWinRate" Grid.Column="1" Grid.Row="1" Content="{Binding Path=Tie}" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label Name="OWinRate" Grid.Column="2" Grid.Row="1" Content="{Binding Path=OWin}" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+        </Grid>
+    </Grid>
+</Window>

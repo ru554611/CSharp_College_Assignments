@@ -1,0 +1,13 @@
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\bin\Debug\TTTGameSimulator.exe.config
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.csprojResolveAssemblyReference.cache
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\MainWindow.baml
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\MainWindow.g.cs
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\App.g.cs
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator_MarkupCompile.cache
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.g.resources
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.Properties.Resources.resources
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.csproj.GenerateResource.Cache
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\bin\Debug\TTTGameSimulator.exe
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\bin\Debug\TTTGameSimulator.pdb
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.exe
+c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.pdb
