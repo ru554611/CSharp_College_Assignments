@@ -11,3 +11,6 @@ c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGam
 c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\bin\Debug\TTTGameSimulator.pdb
 c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.exe
 c:\users\aleksandr\documents\visual studio 2013\Projects\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.pdb
+C:\Users\Aleksandr\Documents\GitHub\CSharp_College_Assignments\TTTGameSimulator\TTTGameSimulator\bin\Debug\TTTGameSimulator.exe.config
+C:\Users\Aleksandr\Documents\GitHub\CSharp_College_Assignments\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.exe
+C:\Users\Aleksandr\Documents\GitHub\CSharp_College_Assignments\TTTGameSimulator\TTTGameSimulator\obj\Debug\TTTGameSimulator.pdb
