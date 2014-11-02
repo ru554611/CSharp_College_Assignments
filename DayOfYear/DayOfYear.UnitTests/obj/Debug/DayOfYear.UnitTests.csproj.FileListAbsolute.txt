@@ -1,9 +1,0 @@
-C:\Users\Aleksandr\documents\visual studio 2013\Projects\DayOfYear\DayOfYear.UnitTests\bin\Debug\DayOfYear.UnitTests.dll
-C:\Users\Aleksandr\documents\visual studio 2013\Projects\DayOfYear\DayOfYear.UnitTests\bin\Debug\DayOfYear.UnitTests.pdb
-C:\Users\Aleksandr\documents\visual studio 2013\Projects\DayOfYear\DayOfYear.UnitTests\bin\Debug\DayOfYear.exe
-C:\Users\Aleksandr\documents\visual studio 2013\Projects\DayOfYear\DayOfYear.UnitTests\bin\Debug\nunit.framework.dll
-C:\Users\Aleksandr\documents\visual studio 2013\Projects\DayOfYear\DayOfYear.UnitTests\bin\Debug\DayOfYear.pdb
-C:\Users\Aleksandr\documents\visual studio 2013\Projects\DayOfYear\DayOfYear.UnitTests\bin\Debug\nunit.framework.xml
-C:\Users\Aleksandr\documents\visual studio 2013\Projects\DayOfYear\DayOfYear.UnitTests\obj\Debug\DayOfYear.UnitTests.csprojResolveAssemblyReference.cache
-C:\Users\Aleksandr\documents\visual studio 2013\Projects\DayOfYear\DayOfYear.UnitTests\obj\Debug\DayOfYear.UnitTests.dll
-C:\Users\Aleksandr\documents\visual studio 2013\Projects\DayOfYear\DayOfYear.UnitTests\obj\Debug\DayOfYear.UnitTests.pdb
